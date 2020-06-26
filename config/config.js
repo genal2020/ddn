@@ -7,7 +7,7 @@ export default {
   navs: [
     null,
     { title: '白皮书', path: 'https://github.com/ddnlink/whitepaper' },
-    { title: 'GitHub', path: 'https://github.com/ddnlink/ddn' },
+    { title: 'GitHub', path: 'https://github.com/ddnlink/ddn' }
   ],
 
   menus: {
@@ -24,12 +24,12 @@ export default {
         title: '框架',
         children: ['guide/framework', 'guide/config', 'guide/database', 'guide/context']
       },
-      
+
       {
         title: '贡献',
         children: ['guide/contributing']
       }
-    ],
+    ]
   },
 
   extraBabelPlugins: [
@@ -38,11 +38,11 @@ export default {
       {
         libraryName: 'antd',
         libraryDirectory: 'es',
-        style: 'css',
-      },
-    ],
+        style: 'css'
+      }
+    ]
   ],
   resolve: {
     includes: ['doc']
   }
-};
+}
