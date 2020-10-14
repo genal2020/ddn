@@ -44,7 +44,7 @@ export default {
 
 可以通过环境变量 `DDN_ENV` 区分不同物理环境来指定配置。
 
-举个例子，
+举个例子
 
 ```js
 // .ddnrc.js
